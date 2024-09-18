@@ -1,0 +1,56 @@
+# StyleAssistant
+
+## Overview
+
+StyleAssistant is an intelligent outfit generator built in Python, designed to help users create coordinated outfits based on transition probabilities between clothing items. The system dynamically adapts its recommendations based on user input, such as weather conditions, and can display a complete outfit with visual representation using `Pillow` and `Matplotlib`. By leveraging a transition matrix and a variety of clothing categories (tops, pants, shoes), StyleAssistant can produce an optimal outfit based on probabilities derived from its underlying configuration.
+
+## Features
+
+- Dynamic outfit generation based on a transition matrix of clothing items
+- Weather-based probability adjustments to account for external conditions
+- Visual output of the selected outfit, with images for each clothing item
+- JSON-based configuration for easy inventory updates/modifcations/additions
+
+## How to Set Up and Run
+
+### Prerequisites
+
+1. **Python 3.7+** 
+2. Install the following:```pip install pillow matplotlib```
+ 
+
+### Running the System:
+1. Clone the repo: ```git clone https://github.com/yourusername/StyleAssistant.git```
+2. Run the main script by either pressing run on your terminal or running python StyleAssistant.py
+3. You will be prompted to enter a weather condition (cold or hot), and the system will generate a complete outfit (starting from a top, randomly) based on the starting item selected.
+
+## Personal Significance: 
+Creating StyleAssistant was personally meaningful because it allowed me to combine two of my interests—fashion and technology—into a single project. The ability to blend creativity with computational algorithms was a rewarding experience, as it made something that is typically subjective, like styling an outfit, into an objective, rule-based process. It was also interesting to think about what decisions and important factors go into choosing an outfit (like the weather!). This project is special to me because it represents how technology can provide practical utility in a domain like fashion. I was super
+excited to show my friends my outfit creations as well, and I showcased to them all of the different ones I made! 
+
+## Challenges:
+Working on StyleAssistant challenged me as a computer scientist in several ways. First, attempting to use Markov transition models for clothing selection required me to think carefully about how the process of dressing myself really works. How do I start? What piece do I pick first? Then, I also faced general challenges with Markov chains; like understanding probability; normalizing the transition matrix to ensure valid and realistic outputs if I adjusted anything, etc. This was really important when I attempted to handle external factors like weather, and definitely added another layer of complexity to the algorithm. Building a system that incorporates both fashion logic and programming pushed me to improve my understanding of computer science.
+
+## Next Steps
+The next steps for StyleAssistant include:
+
+1. Improving the user interface by allowing more interactive input (e.g., user preferences, additional categories).
+2. Improving and dyanmically adjusting transition probabilities based on user feedback.
+3. Expanding the weather system to include more detailed environmental factors (e.g., rain, wind).
+4. Adding something to account for dressing for special occasions (e.g., formal, concert, birthday party, pool party)
+5. Adding more clothing items and styles for a broader range of outfit choices.
+
+## Creativity Discussion:
+I believe StyleAssistant is a creative system because it applies computational thinking to a domain that is usually considered subjective and artistic. The idea of using a transition matrix to generate an outfit is an very unique (at least to me, so P-creative!) approach to solving the problem of selecting an outfit. While I haven't explored other styling apps -so I can't speak on it's H-Creativity - I feel that because this system generates suggestions based on set calculated probabilities, making it both dynamic and adaptable. This blend of fashion and code is, to me, a creative solution that brings two worlds together in a unique way.
+
+## Acknowledgments/Thanks:
+1. Clueless, for inspiring me with their wardrobe selection helper!
+2. The various online forums and documentation for issues related to Pillow, Matplotlib, and probability theory.
+
+
+
+
+
+
+
+

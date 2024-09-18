@@ -1,0 +1,48 @@
+{
+    "cold": {
+        "tops": {
+            "tshirt": 0.5,
+            "long-sleeve": 1.5,
+            "tanktop": 0.3,
+            "blouse": 1.2,
+            "corset-top": 0.5
+        },
+        "pants": {
+            "jeans": 1.5,
+            "shorts": 0.2,
+            "skirt": 0.2,
+            "slacks": 1.2,
+            "leggings": 1.5
+        },
+        "shoes": {
+            "sneakers": 0.5,
+            "boots": 2.0,
+            "heels": 0.8,
+            "loafers": 0.8,
+            "sandals": 0.1
+        }
+    },
+    "hot": {
+        "tops": {
+            "tshirt": 1.5,
+            "long-sleeve": 0.5,
+            "tanktop": 1.5,
+            "blouse": 1.0,
+            "corset-top": 1.2
+        },
+        "pants": {
+            "jeans": 0.5,
+            "shorts": 1.5,
+            "skirt": 1.5,
+            "slacks": 0.8,
+            "leggings": 0.5
+        },
+        "shoes": {
+            "sneakers": 1.2,
+            "boots": 0.5,
+            "heels": 1.0,
+            "loafers": 1.0,
+            "sandals": 1.5
+        }
+    }
+}

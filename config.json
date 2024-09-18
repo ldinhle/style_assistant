@@ -1,0 +1,7 @@
+{
+    "categories": {
+        "tops": ["blouse", "tshirt", "tanktop", "long-sleeve", "corset-top"],
+        "pants": ["jeans", "shorts", "skirt", "slacks", "leggings"],
+        "shoes": ["sneakers", "boots", "heels", "loafers", "sandals"]
+    }
+}
